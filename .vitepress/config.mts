@@ -12,6 +12,7 @@ export default defineConfig({
     
     returnToTopLabel: '返回顶部',
     outlineTitle: '目录',
+    outline: [1,5],
   
     
     
