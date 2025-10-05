@@ -3,15 +3,18 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "九极实验室"
+  text: "前后端开发体系"
+  tagline: Practice is the sole criterion for testing truth
+  image:
+    src: /programmer.png
+    alt: background
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 开始
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 说明
       link: /api-examples
 
 features:
@@ -22,4 +25,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
