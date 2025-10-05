@@ -9,19 +9,23 @@ hero:
   image:
     src: /programmer.png
     alt: background
-  actions:
-    - theme: brand
-      text: 开始
-      link: /markdown-examples
-    - theme: alt
-      text: 说明
-      link: /api-examples
+  # actions:
+  #   - theme: brand
+  #     text: 开始
+  #     link: /markdown-examples
+  #   - theme: alt
+  #     text: 说明
+  #     link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 💻
+    title: Coding
+    details: 实践是检验真理的唯一标准。
+  - icon: ⚙️
+    title: Studying & Outputing 
+    details: 持续学习，保持先进生产力。
+  - icon: 🚀
+    title: Growing
+    details: 逆水行舟，不进则退。
+
 ---

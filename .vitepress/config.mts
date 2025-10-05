@@ -5,12 +5,21 @@ export default defineConfig({
   base: "/blog/",
   title: "九极实验室",
   description: "九极实验室-文档站",
+  head:[
+    ["link",{rel: 'icon',href: '/blog/programmer.svg'}]
+  ],
   themeConfig: {
+    
+    returnToTopLabel: '返回顶部',
+    outlineTitle: '目录',
+  
+    
     
     logo: "/programmer.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
+      { text: 'Spring', link: '/springs' },
       // { text: 'Examples', link: '/markdown-examples' }
     ],
     search: {
@@ -34,15 +43,14 @@ export default defineConfig({
       }
     },
 
-    // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
+    sidebar: [
+      {
+        text: '推荐',
+        items: [
+          { text: 'Spring全家桶', link: '/springs' },
+        ]
+      }
+    ],
 
     socialLinks: [
       // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
